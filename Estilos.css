@@ -6,6 +6,10 @@ body{
     background-attachment: fixed;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .contenedor{
     width:100%;
     padding: 15px;
@@ -47,7 +51,8 @@ input[type="password"]{
     color: #fff;
     font-size: 20px;
     background: rgb(35, 130, 118);
-    padding: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -61,6 +66,23 @@ p{
 
 .link{
     text-decoration: none;
+    color: rgb(35, 130, 118);
+    font-weight: 600;
+}
+
+.link:hover{
+    color: rgb(89, 181, 72);
+}
+
+@media(min-width:768px){
+
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+
 }
 
 

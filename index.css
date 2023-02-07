@@ -23,12 +23,17 @@ nav ul li{
     margin: 0 5px;
 }
 
-/* .logo-sena{
+.logo{
     text-align: center;
     width: 100px;
 }
 
-h1{
+input{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+/* h1{
     text-align: center;
     color: rgb(35, 130, 118);
     font-size: 40px;
@@ -100,7 +105,13 @@ section{
     align-items: center;
     padding: 0.5rem;
     font-size: 1.5rem;
-    
+
+}
+
+a.salir, a.enlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{

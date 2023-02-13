@@ -147,7 +147,7 @@ a.salir, a.enlace{
     border-radius: 15px; 
 } 
 
-@media (max-width: 1800px){
+@media (max-width: 2000px){
     .enlace{
         padding-left: 20px;
     }
@@ -156,7 +156,7 @@ a.salir, a.enlace{
     }
 } 
 
-@media (max-width: 1800px){
+@media (max-width: 2000px){
     .checkbtn{
         display: block;
     }

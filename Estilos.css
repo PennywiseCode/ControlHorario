@@ -75,7 +75,7 @@ p{
     color: rgb(89, 181, 72);
 }
 
-@media(min-width:768px){
+@media(min-width:2000px){
 
     .formulario{
         margin: auto;
